@@ -16,7 +16,7 @@ module.exports = (sequelize, DataTypes) => {
   }
   user.init({
     name: {
-      type: DataTypes.String,
+      type: DataTypes.STRING,
       validate: {
         len: {
           args: [1,99],
